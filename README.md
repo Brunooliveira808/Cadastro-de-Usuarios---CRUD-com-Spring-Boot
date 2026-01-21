@@ -57,9 +57,9 @@ com.bruno.cadastro_usuario
 
 ### 📌 Operações por ID
 
-| Método | Endpoint                                                     | Descrição                |
-| ------ | ------------------------------------------------------------ | ------------------------ |
-| PUT    | //usuario?id=3  && Body (JSON): {"email": "mailto@email.com"}| Atualizar usuário por ID    |
+| Método | Endpoint                                                       | Descrição                |
+| ------ | -------------------------------------------------------------- | ------------------------ |
+| PUT    | //usuario?id=3   &   Body (JSON): {"email": "mailto@email.com"}| Atualizar usuário por ID    |
 
 📌 **Exemplo de PUT por ID**
 
@@ -84,7 +84,7 @@ Além do ID, o sistema também permite realizar operações utilizando o **e-mai
 | Método | Endpoint                                                                    | Descrição                    |
 | ------ | --------------------------------------------------------------------------- | ---------------------------- |
 | GET    | /usuarios?email=[usuario@email.com](mailto:usuario@email.com)               | Buscar usuário por e-mail    |
-| POST   | /usuarios &&  Body (JSON): {"email" : "mailto@email.com", "nome" : "mailto"}| Adicionar usuário |
+| POST   | /usuarios   &   Body (JSON): {"email" : "mailto@email.com", "nome" : "mailto"}| Adicionar usuário |
 | DELETE | /usuarios?email=[usuario@email.com](mailto:usuario@email.com)               | Deletar usuário por e-mail   |
 
 📌 **Exemplo de POST**
